@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
+  base: '/task-hub/',
   plugins: [
     vue(),
     tailwindcss(), // 激活 Tailwind v4 引擎
